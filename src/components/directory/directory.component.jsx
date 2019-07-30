@@ -48,6 +48,7 @@ constructor(){
 render() {
     return (
         <div className='directory-menu'> {
+          //if we are assigning the value to the same key we can write ...sample syntax
             this.state.sections.map(({ id, ...otherSectionProps}) => (
               <MenuItem key={id} {...otherSectionProps}/> 
          ))

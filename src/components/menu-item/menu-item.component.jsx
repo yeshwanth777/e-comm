@@ -1,5 +1,5 @@
 import React from 'react';
-//with router is a higher order component
+//with router is a higher order component. it takes a component as a parameter and traforms that component in to anotgher componenet
 import { withRouter } from 'react-router-dom';
 import './menu-item.styles.scss';
 
